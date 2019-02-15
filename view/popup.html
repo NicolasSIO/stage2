@@ -1,0 +1,34 @@
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" type="text/css" href="../css/style.css">
+	</head>
+	<body>
+		<div>
+			<div class="divPrincipale">
+				<h3 class="titre">Connexion</h2>
+				<div class="divSecondaire">
+					<label for="identifiant">Identifiant : </label>
+					<input type="text" name="identifiant" class="container" id="identifiant" autofocus autocomplete="off">
+					<div id="erreur_identifiant" class="erreur"></div> <!-- affiche un message d'erreur pour l'identifiant -->
+				</div>
+				<div class="divSecondaire">
+					<label for="motDePasse">Mot de passe : </label>
+					<input type="password" name="motDePasse" class="container" id="motDePasse">
+					<div id="erreur_motDePasse" class="erreur"></div> <!-- affiche un message d'erreur pour le mot de passe -->
+				</div>
+				<!-- Lien vers une autre popup -->
+				<!-- <div> -->
+					<!-- <a class="btn envoyer " href="#" id="btn" >Popup2</a> -->
+				<!-- </div> -->
+				<div class="align-right">
+					<button class="btn envoyer js-button-connexion" id="btn" >Envoyer</button>
+				</div>
+			</div>
+		</div>
+		<script src="../js/jquery.js"></script>
+		<script src="../js/nouvelOnglet.js"></script>
+		<script src="../js/nouvelleFenetre.js"></script>
+		<script src="../js/connexionOk.js"></script>
+	</body>
+</html>
